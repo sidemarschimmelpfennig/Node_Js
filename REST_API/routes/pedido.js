@@ -14,13 +14,13 @@ router.post('/' , (req, res, next) => {
     )
 } )
 //ALTERA UM PEDIDO
-router.patch ('/', (res, req,next) => {
+router.patch ('/', (req, res,next) => {
     res.status(201).send(
         {mensagem : 'patch da rota de pedidos'} 
     )
 } )
 //DELETA OS DADOS DO PEDIDO
-router.delete ('/', (res, req,next) => {
+router.delete ('/', (req, res,next) => {
     res.status(201).send(
         {mensagem : 'delete da rota de pedidos'} 
     )
